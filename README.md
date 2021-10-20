@@ -1,8 +1,8 @@
 # CPNT262-a2
-- Author Name: Icah Vega
+- Author Name: [Icah Vega](https://github.com/Icahpv)
 - Class: FALL2021
 - Instructor: Tony Grimes
-- Links: [Github Repo Link]() | [GitHub Pages Link]()
+- Links: [Github Repo Link](https://github.com/Icahpv/cpnt262-a2.git) | [GitHub Pages Link](https://icahpv.github.io/cpnt262-a2/)
 
 
 ## About the assignment
