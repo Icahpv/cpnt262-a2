@@ -154,9 +154,9 @@ const quotes = [
     creditURL: 'https://unsplash.com/@kelli_mcclintock',
   }
 ]
-
+// declare `output`
 let output = '';
-
+// declare function `quote` and include HTML that will show id, title, image link, author and author link.
 quotes.forEach(function(quote){
   output += `
   <a href="${quote.linkURL}" target="_blank">
@@ -167,6 +167,6 @@ quotes.forEach(function(quote){
   <a href="${quote.creditURL}" target="_blank"><p class="follow">Follow</p></a>
   </figure>`
 });
-
+// select `gallery` class from HTML and invoke function
 const showGallery = document.querySelector('.gallery');
 showGallery.innerHTML = output;
