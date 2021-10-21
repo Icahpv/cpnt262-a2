@@ -7,6 +7,8 @@
 
 ## About the assignment
 
+**Motivational Quotes** gallery with array of objects using `function()` `forEach()`loop and `innerHTML`.
+
 ### Assets
 
 1. [Photo](https://www.pexels.com/photo/all-we-have-is-now-neon-signage-on-black-surface-1580625/) by [Daria Shevtsova](https://www.pexels.com/@daria) from [Pexels](https://www.pexels.com/)
@@ -24,8 +26,16 @@
 13. [Photo](https://unsplash.com/photos/5d5DSRQ5dUc) by [Eileen Pan](https://unsplash.com/@eileenp) on [Unsplash](https://unsplash.com/)
 14. [Photo](https://unsplash.com/photos/QFKMeRCHb8w) by [Kelli McClintock](https://unsplash.com/@kelli_mcclintock) on [Unsplash](https://unsplash.com/)
 
+#### Reference
 
-#### Attributions
+- [Quicksand Font](https://fonts.google.com/specimen/Quicksand) by [Google Fonts](https://fonts.google.com)
+- [Animation: fadeInDown](https://animate.style/) from [Animate.css](https://animate.style/) by [Daniel Eden](https://github.com/daneden) and friends.
 
-##### License
-MIT License 
+### Attributions
+
+- [Jessica Watson](https://github.com/Enyorose): Interface suggestion.
+- [John Paul Adobas](https://github.com/jaypee06) Code suggestion.
+- Tony Grimes(Instructor): JS Code. 
+
+### License
+:scroll: [MIT License](https://opensource.org/licenses/MIT) 

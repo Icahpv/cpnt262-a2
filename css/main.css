@@ -14,18 +14,16 @@ header {
 }
 
 h1 {
-  margin: 30px;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 1px 1px 2px gray;
+  margin: 3rem;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 8px gray;
   font-size: 50px;
-  letter-spacing: 5px;
-}
+  letter-spacing: 4rem;
 
-
-img {
-  height: 35rem;
-  width: 25rem;
+  /*animation*/
+  animation-duration: 3s;
+  animation-delay: 500ms;
 }
 
 .gallery {
@@ -36,17 +34,6 @@ img {
   flex-wrap: wrap;
 }
 
-img:hover {
-  filter: brightness(0.5) drop-shadow(1px 1px px gray);
-  transform: scale3d(1.1, 1.1, 1.1);
-  transition-duration: 500ms;
-}
-
-img {
-  border-radius: 15px;
-  cursor: zoom-in;
-}
-
 figure {
   display: flex;
   justify-content: center;
@@ -54,6 +41,21 @@ figure {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+img {
+  height: 35rem;
+  width: 25rem;
+  border-radius: 15px;
+  cursor: zoom-in;
+}
+
+img:hover {
+  filter: brightness(0.5);
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition-duration: 500ms;
+}
+
+/*Description*/
 
 figcaption {
   text-align: center;
@@ -70,9 +72,13 @@ a {
   margin: 10px;
 }
 
+/*Author section*/
+
 .author {
   font-size: 15px;
 }
+
+/*Follow button*/
 
 .follow {
   font-size: 15px;
@@ -84,12 +90,15 @@ a {
   font-weight: bold;
 }
 
-
 .follow:hover {
   filter: brightness(0.8);
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 20vh;
   background-color: rgb(196, 196, 196);
 }

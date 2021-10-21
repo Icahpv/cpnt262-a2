@@ -161,7 +161,7 @@ quotes.forEach(function(quote){
   output += `
   <a href="${quote.linkURL}" target="_blank">
   <figure>
-  <img src="images/sm/${quote.id}.jpg" alt="${quotes.title}">
+  <img src="images/sm/${quote.id}.jpg" alt="${quotes.title}" height="${quote.height}" width="${quote.width}">
   <figcaption>${quote.description}</figcaption></a>
   <p class="author"><strong>Author:</strong> ${quote.credit}</p>
   <a href="${quote.creditURL}" target="_blank"><p class="follow">Follow</p></a>
