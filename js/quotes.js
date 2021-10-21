@@ -1,0 +1,172 @@
+const quotes = [
+  {
+    id: 'sm-a',
+    title: 'All we have is now',
+    description: 'All we have is now in neon.',
+    width: 640,
+    height: 853,
+    pathURL: 'images/sm/sm-a.jpg',
+    linkURL: 'https://images.pexels.com/photos/1580625/pexels-photo-1580625.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Daria Shevtsova',
+    creditURL: 'https://www.pexels.com/@daria',
+  },
+  {
+    id: 'sm-b',
+    title: 'Inspiring Words',
+    description: 'Fear kills more dreams that failure ever will.',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-b.jpg',
+    linkURL: 'https://images.pexels.com/photos/6956352/pexels-photo-6956352.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Eva Elijas',
+    creditURL: 'https://www.pexels.com/@eva-elijas',
+  },
+  {
+    id: 'sm-c',
+    title: 'Dont Quit',
+    description: 'Dont quit and do it.',
+    width: 640,
+    height: 959,
+    pathURL: 'images/sm/sm-c.jpg',
+    linkURL: 'https://images.pexels.com/photos/5238670/pexels-photo-5238670.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'lya Kobruseva',
+    creditURL: 'https://www.pexels.com/@olyakobruseva',
+  },
+  {
+    id: 'sm-d',
+    title: 'Be the change you want to see',
+    description: 'Be the change you want to see in ink.',
+    width: 640,
+    height: 959,
+    pathURL: 'images/sm/sm-d.jpg',
+    linkURL: 'https://images.pexels.com/photos/6185624/pexels-photo-6185624.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Polina Kovaleva',
+    creditURL: 'https://www.pexels.com/@polina-kovaleva',
+  },
+  {
+    id: 'sm-e',
+    title: 'You are beautiful',
+    description: 'You are beautiful sticky note.',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-e.jpg',
+    linkURL: 'https://images.pexels.com/photos/1485548/pexels-photo-1485548.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Lisa',
+    creditURL: 'https://www.pexels.com/@fotios-photos',
+  },
+  {
+    id: 'sm-f',
+    title: 'You can change the world, girl',
+    description: 'You can change the world, girl in pink beads and background.',
+    width: 640,
+    height: 959,
+    pathURL: 'images/sm/sm-f.jpg',
+    linkURL: 'https://images.pexels.com/photos/6185361/pexels-photo-6185361.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Polina Kovaleva',
+    creditURL: 'https://www.pexels.com/@polina-kovaleva',
+  },
+  {
+    id: 'sm-g',
+    title: 'You are an amazing human',
+    description: 'You are an amazing human card.',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-g.jpg',
+    linkURL: 'https://images.pexels.com/photos/3974410/pexels-photo-3974410.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'Lisa',
+    creditURL: 'https://www.pexels.com/@fotios-photos',
+  },
+  {
+    id: 'sm-h',
+    title: 'Fight for your right',
+    description: 'black and white fight for your right quote.',
+    width: 640,
+    height: 958,
+    pathURL: 'images/sm/sm-h.jpg',
+    linkURL: 'https://images.pexels.com/photos/4753879/pexels-photo-4753879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    credit: 'cottonbro',
+    creditURL: 'https://www.pexels.com/@cottonbro',
+  },
+  {
+    id: 'sm-i',
+    title: 'Dont worry nobody knows what theyre doing either',
+    description: 'White roses with quote. ',
+    width: 640,
+    height: 959,
+    pathURL: 'images/sm/sm-i.jpg',
+    linkURL: 'https://images.pexels.com/photos/3927440/pexels-photo-3927440.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    credit: 'ready made',
+    creditURL: 'https://www.pexels.com/@readymade',
+  },
+  {
+    id: 'sm-j',
+    title: 'Difficult roads leads to beautiful destinations',
+    description: 'Peg board saying "Difficult roads leads to beautiful destinations".',
+    width: 640,
+    height: 781,
+    pathURL: 'images/sm/sm-j.jpg',
+    linkURL: 'https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80',
+    credit: 'Hello Im Nik',
+    creditURL: 'https://unsplash.com/@helloimnik',
+  },
+  {
+    id: 'sm-k',
+    title: 'Dont give up',
+    description: 'Dont give up hanging letter.',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-k.jpg',
+    linkURL: 'https://images.unsplash.com/photo-1567219934540-9f75f7b87552?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80',
+    credit: 'capnsnap',
+    creditURL: 'https://unsplash.com/@capnsnap',
+  },
+  {
+    id: 'sm-l',
+    title: 'Some things takes time',
+    description: 'Frame with quote saying "Some things takes time". ',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-l.jpg',
+    linkURL: 'https://images.unsplash.com/photo-1613909327715-216aabf51c52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=699&q=80',
+    credit: 'Duane Mendes',
+    creditURL: 'https://unsplash.com/@duanemendes',
+  },
+  {
+    id: 'sm-m',
+    title: 'Youre not lost youre here',
+    description: 'Establishment sign saying "Youre not lost youre here". ',
+    width: 640,
+    height: 853,
+    pathURL: 'images/sm/sm-m.jpg',
+    linkURL: 'https://images.unsplash.com/photo-1553002401-c0945c2ff0b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80',
+    credit: 'Eileen Pan',
+    creditURL: 'https://unsplash.com/@eileenp',
+  },
+  {
+    id: 'sm-n',
+    title: 'You can do the hard things',
+    description: 'carved quote saying "You can do the hard things" in a soap.',
+    width: 640,
+    height: 960,
+    pathURL: 'images/sm/sm-n.jpg',
+    linkURL: 'https://images.unsplash.com/photo-1591088722104-ede622d0986e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80',
+    credit: 'Kelli McClintock',
+    creditURL: 'https://unsplash.com/@kelli_mcclintock',
+  }
+]
+
+let output = '';
+
+quotes.forEach(function(quote){
+  output += `
+  <a href="${quote.linkURL}" target="_blank">
+  <figure>
+  <img src="images/sm/${quote.id}.jpg" alt="${quotes.title}">
+  <figcaption>${quote.description}</figcaption></a>
+  <p class="author"><strong>Author:</strong> ${quote.credit}</p>
+  <a href="${quote.creditURL}" target="_blank"><p class="follow">Follow</p></a>
+  </figure>`
+});
+
+const showGallery = document.querySelector('.gallery');
+showGallery.innerHTML = output;

@@ -1,4 +1,4 @@
-const quotes = [
+ [
   {
     id: 'sm-a',
     title: 'All we have is now',
