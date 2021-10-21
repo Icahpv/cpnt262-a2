@@ -1,7 +1,7 @@
 # CPNT262-a2
 - Author Name: [Icah Vega](https://github.com/Icahpv)
-- Class: FALL2021
-- Instructor: Tony Grimes
+- Class: Web Dev FALL2021
+- Instructor: [Tony Grimes](https://github.com/acidtone)
 - Links: [Github Repo Link](https://github.com/Icahpv/cpnt262-a2.git) | [GitHub Pages Link](https://icahpv.github.io/cpnt262-a2/)
 
 
@@ -34,8 +34,8 @@
 ### Attributions
 
 - [Jessica Watson](https://github.com/Enyorose): Interface suggestion.
-- [John Paul Adobas](https://github.com/jaypee06) Code suggestion.
-- Tony Grimes(Instructor): JS Code. 
+- [John Paul Adobas](https://github.com/jaypee06): Code suggestion.
+- [Tony Grimes](https://github.com/acidtone): JS Code. 
 
 ### License
 :scroll: [MIT License](https://opensource.org/licenses/MIT) 
